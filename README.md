@@ -1,7 +1,7 @@
-# api-tester 'CLI'
+# api-tester 'REST API'
 ### [ Test APIs and confirm the result based on predefined parameters ]
 
-Cli application that scans the directory configured in the application.properties file in the tests.folder.relative-path parameter and read all the .test files available in this location.
+REST API application that scans the directory configured in the application.properties file in the tests.folder.relative-path parameter and read all the .test files available in this location.
 .test files. 
 
 ## INPUT
