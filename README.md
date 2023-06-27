@@ -1,2 +1,2 @@
 # api-tester
-This app will test APIs and assert the result based on pre-defined pameters
+This app will test APIs and confirm the result based on predefined parameters
