@@ -1,5 +1,0 @@
-location=https://api.example.com/v1/check_data
-headers=["Content-Type: application/json", "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInA5cCI6IkpXVCIcImtpZCI6Imt1VGdaSTgxWVBCeS1aVXFvR1JCNCJ9..."]
-body={"client_id": 42, "serial": "000000008A1390AC", "data_fmt": "H"}
-responseStatus=200
-responseAssertions=["retCode: 0", "retValid: true", "retDescription: Serial number changed"]

@@ -1,5 +1,5 @@
-location=https://api.example.com/v1/check_data
-headers=["Content-Type: application/json", "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInA5cCI6IkpXVCIcImtpZCI6Imt1VGdaSTgxWVBCeS1aVXFvR1JCNCJ9..."]
-body={"client_id": 42, "serial": "000000008A1390AC", "data_fmt": "H"}
+location=https://api.first-tech.net/v1/PayShieldCrypto/DecryptData
+headers=["Content-Type: application/json", "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Imt1VGdiSTgxWVBCeS1aVXFvR1JNNCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZmlyc3QtdGVjaC5uZXQvIiwic3ViIjoiS29jOGNjN01uN2ZoS3VrWG1Ia2UxMzVGcTBQWWNvU0tAY2xpZW50cyIsImF1ZCI6Imh0dHBzOi8vYXV0aC1qd3QtYXV0aG9yaXplLXByZC1maXJzdC10ZWNoIiwiaWF0IjoxNjg4MzkxMjk5LCJleHAiOjE2ODg0Nzc2OTksImF6cCI6IktvYzhjYzdNbjdmaEt1a1htSGtlMTM1RnEwUFljb1NLIiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIn0.3cdSQCZAXhOfquPMBBwKAlvMjyaxvR4IsYehaiuv7SGgOGO60E9aYVToRHbtBni-9fM9jR3KCYEwEBFQi3Enn6-rFduwDTTxI_G3584rjQi2FLMeDSZv6YXowWm3BoJjzyTUf7z6HW0vP86jXgbGC5mnOnMMYf3ma5N1LCD9fZ_Nu5CN3OfaWacoL-y1oxdI88W8NlG4kuupZrAkhHTTauYcdkYwxVmT0YBTCoZ-b2wa-lGr6QwtyBvl7CgCG-7wsJmA-9aEKQgK79JRJi6p7TMzhE4-PZCmGDUQj8YNfRaF0YCZrX1qgjoOdCf4R3XH49inllXIto02madcStJ7KA"]
+body={"client_id": 2, "keyId": "client-2-key-id-9275-ZEK-T2", "modeEncFlag": "01", "ksn_desc": null, "ksn": null, "iv": "0000000000000000", "data_fmt": "H", "p_h_data": "8E11C864EBC68B160767F4591223102F747EFFA092A6E758C3A76FAA9C6CEA2C99219724342F9C0021F4FBFD2508159229179DAAB9CFF40FC5FA8735731CD29164E089126AA72270AD5D0A8CC4142FF1C54D72BFE40513CA5B887EF85ADE66E5", "b_data": null}
 responseStatus=200
-responseAssertions=["retCode: 0", "retValid: true", "retDescription: Serial number changed"]
+responseAssertions=["retCode: 0", "retValid: true", "retDesc: No error"]
